@@ -1,0 +1,128 @@
+.flecha {
+    position: fixed; 
+    width: 55px;
+    height: 55px;
+    bottom: 30px;
+    right: 35px;
+    line-height: 100px;
+    font-size: 15px;
+    border-radius: 17px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(38, 139, 63);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5); 
+    transition: all 200ms;
+    z-index: 1;
+}
+
+.flecha:hover {
+    background-color: rgb(31, 105, 13);
+    transform: scale(1.20); 
+}
+
+.flecha img {
+    height: 40px;
+    margin-bottom: 52px;
+}
+
+/* nav */
+
+.nav-link{
+    margin: 0px 5px;
+    width: 110px;
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
+
+.navbar{
+    border-bottom: solid 2px rgb(0, 0, 0);
+    padding: 5px 100px;
+}
+
+.navbar-nav{
+    margin-left: 235px;
+}
+
+/* main */
+
+.center{
+    border-radius: 10px;
+    width: 800px;
+    height: 1645px;
+    padding: 20px;
+    text-align: justify;
+    margin-top: 100px;
+    margin-left: 450px;
+    margin-bottom: 90px;
+}
+
+.center-1{
+    width: 750px;
+    margin-top: 26px;
+}
+
+.padre-redes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.redes{
+    width: 270px;
+    margin: 20px;
+}
+
+.left{
+    border-radius: 10px;
+    width: 350px;
+    height: 1645px;
+    padding: 30px;
+    text-align: justify;
+    margin-top: -1735px;
+    margin-left: 100px;
+    margin-bottom: 90px;
+}
+
+.left-1{
+    width: 300px;
+    padding: 5px;
+    height: 1580px;
+    font-size: 13px;
+}
+
+.right{
+    border-radius: 10px;
+    width: 350px;
+    height: 1635px;
+    padding: 30px;
+    padding-top: 32px;
+    text-align: justify;
+    margin-top: -1735px;
+    margin-left: 1250px;
+    margin-bottom: 90px;
+}
+
+.apoyanos{
+    background-color: rgb(44, 116, 26);
+}
+
+.d-flex{
+    margin-top: 11px;
+}
+
+
+.li-1{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+/* footer */
+
+.img-logo-footer{
+    width: 45px;
+    margin-right: 60px;
+}

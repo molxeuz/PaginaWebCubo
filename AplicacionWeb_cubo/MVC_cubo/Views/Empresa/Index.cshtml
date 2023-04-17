@@ -1,0 +1,308 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<link rel="stylesheet" href="css/style-empresa.css">
+
+<!-- empieza el body de la pestaña EMPRESA -->
+<body>
+
+    <!-- empieza el codigo del main en html -->
+    <main>
+
+        <!-- articulo que encierra las tres secciones a lo largo del main -->
+        <article > 
+
+            <!-- empieza con la seccion del centro -->
+            <section class="center">
+
+                <!-- empieza la primera seccion -->
+                <section class="center-1">
+
+                    <br>
+                    <div class="card shadow-lg ">
+
+                        <!-- titulo de la card -->
+                        <div class="card-header" style="background-color: #ffb223; ">
+                        Descripcion general de la pagina
+                        </div>
+
+                        <!-- contenido del card -->
+                        <div class="card-body ">
+                            <h5 class="card-title">Bienvenidos a la empresa Amazing.cube:</h5>
+                            <p class="card-text">Aqui podran encontrar diferentes datos sobre nosotros, basicamente te ofrecemos este servicio gracias a todas las posibilidades que te vamos a mostrar a continuacion, aca te mostraremos proyectos recientes que queremos implementar, daremos agradecimientos y entre otras muchas cosas!!.</p>
+                          <a href="#" class="btn btn-warning" style="background-color: #ffb223;">Empieza a conocer!</a>
+                        </div>
+
+                    </div>
+
+                    <br></br>
+
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Posicion</th>
+                                <th scope="col">Primer nombre</th>
+                                <th scope="col">Apellido</th>
+                                <th scope="col">Subscripcion</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" style="background-color: #ffb223;">1</th>
+                                <td>Antonio</td>
+                                <td>Aguilar</td>
+                                <td> > 5 años </td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="background-color: #f02727;">2</th>
+                                <td>Michael</td>
+                                <td>Jackson</td>
+                                <td> > 4.5 años</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="background-color: #ffe923;">3</th>
+                                <td>David</td>
+                                <td>Bowie</td>
+                                <td> > 4 años</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="background-color: #3e5afc;">4</th>
+                                <td>Rodolfo</td>
+                                <td>Aicardi</td>
+                                <td> > 3.5 años</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="background-color: #268b3f;">5</th>
+                                <td>The</td>
+                                <td>Weeknd</td>
+                                <td> > 3 años</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="background-color: #a0a1a7;">6</th>
+                                <td>Larry</td>
+                                <td>The Bird</td>
+                                <td> > 2.5 años</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="background-color: #a0a1a7;">7</th>
+                                <td>Michael</td>
+                                <td>Jordan</td>
+                                <td> > 2 años</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="background-color: #a0a1a7;">8</th>
+                                <td>Vicente</td>
+                                <td>Fernandez</td>
+                                <td> > 1.5 años</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="background-color: #a0a1a7;">9</th>
+                                <td>Programador</td>
+                                <td>Nea</td>
+                                <td> > 1 año</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" style="background-color: #a0a1a7;">10</th>
+                                <td>El</td>
+                                <td>Melocoton</td>
+                                <td> < 1 año</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                        <br>
+
+                        <a class="btn" id="administrador" href="@Url.Action("Index", "Login")">Edita la tabla como administrador</a>
+                        <a class="btn" id="usuario" href="@Url.Action("Index", "Usuario")">Ver mas informacion de la tabla</a>
+
+                </section>
+                <!-- finaliza con la primera seccion -->
+
+            </section>
+            <!-- finaliza con la seccion del centro -->
+
+            <!-- comienza con la seccion del la izquierda -->
+            <section class="left">
+                <!-- comuienza con la primera seccion -->
+                <section class="left-1">
+
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-secondary" type="submit">Search</button>
+                    </form>
+
+                    <br><hr>
+
+                    <div data-bs-spy="scroll btn-outline-dark" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+
+                        <h4 id="list-item-3">Empresa:</h4>
+                        <br>
+                        <div id="list-example" class="list-group shadow-lg">
+                            <a class="list-group-item list-group-item btn-outline-warning"  href="#">Logo</a>
+                            <a class="list-group-item list-group-item btn-outline-warning" href="#">Agradecimientos</a>
+                            <a class="list-group-item list-group-item btn-outline-warning" href="#">Nombre</a>
+                            <a class="list-group-item list-group-item btn-outline-warning" href="#">Otros proyectos</a>
+                        </div>
+
+                        <br><br><br><hr>
+
+                        <h4 id="list-item-1">Informacion general:</h4>
+                        <br>
+                        <div id="list-example" class="list-group shadow-lg ">
+                            <a class="list-group-item list-group-item btn-outline-warning" href="#">Descripcion de la pagina</a>
+                            <a class="list-group-item list-group-item btn-outline-warning"  href="#">Que es el cubo rubik?</a>
+                            <a class="list-group-item list-group-item btn-outline-warning"  href="#">Torneo y competencias</a>
+                            <a class="list-group-item list-group-item btn-outline-warning"  href="#">Datos interesantes</a>
+                            <a class="list-group-item list-group-item btn-outline-warning"  href="#">Ranking de los mejores</a>
+                            <a class="list-group-item list-group-item btn-outline-warning"  href="#">Records en video</a>
+                        </div>
+
+                        <br><br><br><hr>
+
+                        <h4 id="list-item-2">Tienda en linea:</h4>
+                        <br>
+                        <div id="list-example" class="list-group shadow-lg">
+                            <a class="list-group-item list-group-item btn-outline-danger"  href="#">Marca</a>
+                            <a class="list-group-item list-group-item btn-outline-danger"  href="#">Color</a>
+                            <a class="list-group-item list-group-item btn-outline-danger" href="#">Dificultad</a>
+                            <a class="list-group-item list-group-item btn-outline-danger" href="#">Precios</a>
+                        </div>
+
+                        <br><br><br><hr>
+
+                        <h4 id="list-item-3">Galeria:</h4>
+                        <br>
+                        <div id="list-example" class="list-group shadow-lg">
+                            <a class="list-group-item list-group-item btn-outline-primary"  href="#">Salas de exhibicion</a>
+                            <a class="list-group-item list-group-item btn-outline-primary"  href="#">Informacion individual</a>
+                            <a class="list-group-item list-group-item btn-outline-primary" href="#">Guardados</a>
+                            <a class="list-group-item list-group-item btn-outline-primary"  href="#">Mis publicaciones</a>
+                        </div>
+
+                        <br><br><br><hr>
+                            
+                        <h4 id="list-item-3">Nosotros:</h4>
+                        <br>
+                        <div id="list-example" class="list-group shadow-lg">
+                            <a class="list-group-item list-group-item btn-outline-success" href="#">Redes</a>
+                            <a class="list-group-item list-group-item btn-outline-success" href="#">Colaboraciones</a>
+                            <a class="list-group-item list-group-item btn-outline-success" href="#">Mas informacion</a>
+                            <a class="list-group-item list-group-item btn-outline-success" href="#">Elaboracion</a>
+                        </div>
+
+                    </div>
+                </section>   
+                <!-- finaliza con la primera seccion -->
+
+            </section>
+            <!-- finaliza con la seccion de la izquierda -->
+
+
+            <!-- comienza con la seccion de la derecha -->
+            <section class="right">
+
+                <section class="right-1">
+
+                    <div class="card text-dark shadow-lg bg-light mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Cuenta</div>
+                            <div class="card-body">
+                                <h5 class="card-title">Inicio de seccion:</h5>
+                                <br>
+                                <p class="card-text"><button type="button" class="btn btn-outline-secondary">Ingresar con Google</button></p>
+                                <p class="card-text"><button type="button" class="btn btn-outline-secondary">Ingresar con Facebook</button></p>
+                                <hr>
+                                <p class="card-text"><button type="button" class="btn btn-outline-success">Pedir ayuda al desarrollador</button></p>
+                                <p class="card-text"><button type="button" class="btn btn-outline-warning dropdown-toggle">Tus datos en Amazing </button></p>
+                                <p class="card-text"><button type="button" class="btn btn-outline-primary">Administrar tu cuenta</button></p>
+                                <p class="card-text"><button type="button" class="btn btn-outline-danger">Configuracion</button></p>
+                        </div>
+                    </div>
+
+                    <br><br><br>
+                    
+                    <div class="my-3 p-3 bg-body rounded shadow-lg mb-20">
+                        <h6 class="border-bottom pb-2 mb-0 ">Comentarios recientes</h6>
+                        <div class="d-flex text-muted pt-3">
+                          <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#007bff"></rect><text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text></svg>
+                    
+                          <p class="pb-3 mb-0 small lh-sm border-bottom">
+                            <strong class="d-block text-gray-dark">Adicto_cubos</strong>
+                            Some representative placeholder content, with some information about this user.
+                          </p>
+                        </div>
+                        <div class="d-flex text-muted pt-3">
+                          <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#e83e8c"></rect><text x="50%" y="50%" fill="#e83e8c" dy=".3em">32x32</text></svg>
+                    
+                          <p class="pb-3 mb-0 small lh-sm border-bottom">
+                            <strong class="d-block text-gray-dark">Ch3lios</strong>
+                            Some more representative placeholder content, related to this other user. Another status update, perhaps.
+                          </p>
+                        </div>
+                        <div class="d-flex text-muted pt-3">
+                          <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#6f42c1"></rect><text x="50%" y="50%" fill="#6f42c1" dy=".3em">32x32</text></svg>
+                    
+                          <p class="pb-3 mb-0 small lh-sm border-bottom">
+                            <strong class="d-block text-gray-dark">Nada_mas</strong>
+                            This user also gets some representative placeholder content.
+                          </p>
+                        </div>
+                        <small class="d-block text-end mt-3">
+                          <a href="index-galeria.html">Todo Actualizado</a>
+                        </small>
+                    </div>
+
+                    <br><br><br>
+
+                    <div class="card text-dark shadow-lg bg-light mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Carrito de compra</div>
+                        <div class="card-body">
+                            <div class="card" style="width: 250px; height: 300px;">
+                                <div class="card-body">
+                                    <h6 class="card-subtitle mb-2 text-muted">Mostrando ultima compra:</h6>
+                                    <img src="img/butterfly4 - sala2.jpg" style=" margin-left: 55px; width: 100px; height: 100px;" alt="">
+                                    <p class="card-text">ShengShou Petaminx 9 Layer Minx Puzzle</p>
+                                    <button type="button" id="boton_like_carrito" class="btn btn-outline-secondary" aria-expanded="false">LIKE</button>
+                                    <button type="button" id="boton_share_carrito" class="btn btn-outline-secondary" aria-expanded="false">SHARE</button>
+                                </div>
+                            </div>
+                            <br>
+                            <p class="card-text"><button type="button" class="btn btn-outline-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Enviar comentarios </button></p> 
+                        </div>
+                    </div>
+
+                </section>
+
+            </section>
+                
+        </section>
+        <!-- finaliza con la seccion de la derecha -->
+            
+    </article>
+    <!-- finaliza el articulo que encierra las tres secciones del main  -->
+
+</main>
+<!-- finaliza el codigo del main en html -->
+
+<footer>
+        
+    <div class="container">
+        <footer class=" d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-muted">© 2022 Amazing.cube, Inc</p>
+      
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <svg class="" width="40" height="32"><img class="img-logo-footer" src="img/Logo-definitivo (1).ico" alt=""></svg>
+          </a>
+      
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+            <li class="nav-item"><a href="index-tienda.html" class="nav-link px-2 text-muted">Tienda</a></li>
+            <li class="nav-item"><a href="index-galeria.html" class="nav-link px-2 text-muted">Galeria</a></li>
+          </ul>
+        </footer>
+    </div>
+
+</footer>
+
+</body>

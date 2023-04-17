@@ -1,0 +1,613 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<link rel="stylesheet" href="css/style-tabla_admin.css">
+
+<!-- empieza el body de la pestaña TABLA ADMIN -->
+<body class="mt-4">
+
+    <main>
+        
+            <table class="tabla_admin table table-hover">
+              
+              <thead>
+                  <tr>
+                      <th scope="col"><button type="button" style="background-color: #ffffff; ;" class="btn btn-lg"></button></th>
+                      <th scope="col"><button type="button" style="background-color: #ffb223; ;" class="btn btn-lg">POSICION</button></th>
+                      <th scope="col"><button type="button" style="background-color: #f02727; ;" class="btn btn-lg">NOMBRE</button></th>
+                      <th scope="col"><button type="button" style="background-color: #ffe923; ;" class="btn btn-lg">APELLIDO</button></th>
+                      <th scope="col"><button type="button" style="background-color: #3e5afc; ;" class="btn btn-lg">MIEMBRO</button></th>
+                      <th scope="col"><button type="button" style="background-color: #268b3f; ;" class="btn btn-lg">ACTIVIDAD</button></th>
+                      <th scope="col"><button type="button" style="background-color: #ffffff; ;" class="btn btn-lg"></button></th>
+                  </tr>
+              </thead>
+
+              <tbody>
+                  <tr>
+
+                      <td><button type="button" style="background-color: #979797; ;" class="btn btn-lg" data-bs-toggle="modal" data-bs-target="#editarusuario">EDITAR</button></td>
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="editarusuario" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">OPCION DE EDITAR</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              
+                              <br>
+
+                              <!-- POSICION -->
+                              <div class="row g-3 align-items-center">
+                                <div class="col-auto">
+                                  <label for="inputposicion" class="col-form-label">POSICION</label>
+                                </div>
+                                <div class="col-auto">
+                                  <input type="number" id="inputposicion" class="form-control" aria-describedby="passwordHelpInline">
+                                </div>
+                              </div>
+
+                              <br>
+
+                              <!-- NOMBRE -->
+                              <div class="row g-3 align-items-center">
+                                <div class="col-auto">
+                                  <label for="inputnombre" class="col-form-label">NOMBRE</label>
+                                </div>
+                                <div class="col-auto">
+                                  <input type="text" id="inputnombre" class="form-control" aria-describedby="passwordHelpInline">
+                                </div>
+                              </div>
+                              
+                              <br>
+
+                              <!-- APELLIDO -->
+                              <div class="row g-3 align-items-center">
+                                <div class="col-auto">
+                                  <label for="inputapellido" class="col-form-label">APELLIDO</label>
+                                </div>
+                                <div class="col-auto">
+                                  <input type="text" id="inputapellido" class="form-control" aria-describedby="passwordHelpInline">
+                                </div>
+                              </div>
+
+                              <br>
+
+                              <!-- MIEMBRO -->
+                              <div class="row g-3 align-items-center">
+                                <div class="col-auto">
+                                  <label for="inputmiembro" class="col-form-label">MIEMBRO</label>
+                                </div>
+                                <div class="col-auto">
+                                  <input type="text" id="inputmiembro" class="form-control" aria-describedby="passwordHelpInline">
+                                </div>
+                              </div>
+
+                              <br>
+
+                              <!-- ACTIVIDAD -->
+                              <div class="row g-3 align-items-center">
+                                <div class="col-auto">
+                                  <label for="inputactividad" class="col-form-label">ACTIVIDAD</label>
+                                </div>
+                                <div class="col-auto">
+                                  <input type="text" id="inputactividad" class="form-control" aria-describedby="passwordHelpInline">
+                                </div>
+                              </div>
+
+                              <br>
+
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+                              <button type="button" class="btn btn-primary">GUARDAR</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <th scope="row"><button type="button" style="background-color: #ffb223; ;" class="btn btn-lg" disabled>1</button></th>
+                      <td><button type="button" style="background-color: #f02727; ;" class="btn btn-lg" disabled>Julian</button></td>
+                      <td><button type="button" style="background-color: #ffe923; ;" class="btn btn-lg" disabled>Cardona</button></td>
+                      <td><button type="button" style="background-color: #3e5afc; ;" class="btn btn-lg" disabled>5 años</button></td>
+                      <td><button type="button" style="background-color: #268b3f; ;" class="btn btn-lg" disabled>Online</button></td>
+                      <td><button type="button" style="background-color: #979797; ;" class="btn btn-lg">ELIMINAR</button></td>
+                  </tr>
+                  <tr>
+
+                      <td><button type="button" style="background-color: #979797; ;" class="btn btn-lg" data-bs-toggle="modal" data-bs-target="#editarusuario">EDITAR</button></td>
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="editarusuario" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">OPCION DE EDITAR</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              
+                              <br>
+
+                              <!-- POSICION -->
+                              <div class="row g-3 align-items-center">
+                                <div class="col-auto">
+                                  <label for="inputposicion" class="col-form-label">POSICION</label>
+                                </div>
+                                <div class="col-auto">
+                                  <input type="number" id="inputposicion" class="form-control" aria-describedby="passwordHelpInline">
+                                </div>
+                              </div>
+
+                              <br>
+
+                              <!-- NOMBRE -->
+                              <div class="row g-3 align-items-center">
+                                <div class="col-auto">
+                                  <label for="inputnombre" class="col-form-label">NOMBRE</label>
+                                </div>
+                                <div class="col-auto">
+                                  <input type="text" id="inputnombre" class="form-control" aria-describedby="passwordHelpInline">
+                                </div>
+                              </div>
+                              
+                              <br>
+
+                              <!-- APELLIDO -->
+                              <div class="row g-3 align-items-center">
+                                <div class="col-auto">
+                                  <label for="inputapellido" class="col-form-label">APELLIDO</label>
+                                </div>
+                                <div class="col-auto">
+                                  <input type="text" id="inputapellido" class="form-control" aria-describedby="passwordHelpInline">
+                                </div>
+                              </div>
+
+                              <br>
+
+                              <!-- MIEMBRO -->
+                              <div class="row g-3 align-items-center">
+                                <div class="col-auto">
+                                  <label for="inputmiembro" class="col-form-label">MIEMBRO</label>
+                                </div>
+                                <div class="col-auto">
+                                  <input type="text" id="inputmiembro" class="form-control" aria-describedby="passwordHelpInline">
+                                </div>
+                              </div>
+
+                              <br>
+
+                              <!-- ACTIVIDAD -->
+                              <div class="row g-3 align-items-center">
+                                <div class="col-auto">
+                                  <label for="inputactividad" class="col-form-label">ACTIVIDAD</label>
+                                </div>
+                                <div class="col-auto">
+                                  <input type="text" id="inputactividad" class="form-control" aria-describedby="passwordHelpInline">
+                                </div>
+                              </div>
+
+                              <br>
+
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+                              <button type="button" class="btn btn-primary">GUARDAR</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <th scope="row"><button type="button" style="background-color: #ffb223; ;" class="btn btn-lg" disabled>2</button></th>
+                      <td><button type="button" style="background-color: #f02727; ;" class="btn btn-lg" disabled>Santiago</button></td>
+                      <td><button type="button" style="background-color: #ffe923; ;" class="btn btn-lg" disabled>Salazar</button></td>
+                      <td><button type="button" style="background-color: #3e5afc; ;" class="btn btn-lg" disabled>4,5 años</button></td>
+                      <td><button type="button" style="background-color: #268b3f; ;" class="btn btn-lg" disabled>Offline</button></td>
+                      <td><button type="button" style="background-color: #979797; ;" class="btn btn-lg">ELIMINAR</button></td>
+                  </tr>
+                  <tr>
+
+                      <td><button type="button" style="background-color: #979797; ;" class="btn btn-lg" data-bs-toggle="modal" data-bs-target="#editarusuario">EDITAR</button></td>
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="editarusuario" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">OPCION DE EDITAR</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                                            
+                              <br>
+
+                              <!-- POSICION -->
+                              <div class="row g-3 align-items-center">
+                                <div class="col-auto">
+                                  <label for="inputposicion" class="col-form-label">POSICION</label>
+                                </div>
+                                <div class="col-auto">
+                                  <input type="number" id="inputposicion" class="form-control" aria-describedby="passwordHelpInline">
+                                </div>
+                              </div>
+
+                              <br>
+
+                              <!-- NOMBRE -->
+                              <div class="row g-3 align-items-center">
+                                <div class="col-auto">
+                                  <label for="inputnombre" class="col-form-label">NOMBRE</label>
+                                </div>
+                                <div class="col-auto">
+                                  <input type="text" id="inputnombre" class="form-control" aria-describedby="passwordHelpInline">
+                                </div>
+                              </div>
+                              
+                              <br>
+
+                              <!-- APELLIDO -->
+                              <div class="row g-3 align-items-center">
+                                <div class="col-auto">
+                                  <label for="inputapellido" class="col-form-label">APELLIDO</label>
+                                </div>
+                                <div class="col-auto">
+                                  <input type="text" id="inputapellido" class="form-control" aria-describedby="passwordHelpInline">
+                                </div>
+                              </div>
+
+                              <br>
+
+                              <!-- MIEMBRO -->
+                              <div class="row g-3 align-items-center">
+                                <div class="col-auto">
+                                  <label for="inputmiembro" class="col-form-label">MIEMBRO</label>
+                                </div>
+                                <div class="col-auto">
+                                  <input type="text" id="inputmiembro" class="form-control" aria-describedby="passwordHelpInline">
+                                </div>
+                              </div>
+
+                              <br>
+
+                              <!-- ACTIVIDAD -->
+                              <div class="row g-3 align-items-center">
+                                <div class="col-auto">
+                                  <label for="inputactividad" class="col-form-label">ACTIVIDAD</label>
+                                </div>
+                                <div class="col-auto">
+                                  <input type="text" id="inputactividad" class="form-control" aria-describedby="passwordHelpInline">
+                                </div>
+                              </div>
+
+                              <br>
+
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+                              <button type="button" class="btn btn-primary">GUARDAR</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <th scope="row"><button type="button" style="background-color: #ffb223; ;" class="btn btn-lg" disabled>3</button></th>
+                      <td><button type="button" style="background-color: #f02727; ;" class="btn btn-lg" disabled>Jhimmy</button></td>
+                      <td><button type="button" style="background-color: #ffe923; ;" class="btn btn-lg" disabled>Calderon</button></td>
+                      <td><button type="button"style="background-color: #3e5afc; ;" class="btn btn-lg" disabled>4 años</button></td>
+                      <td><button type="button" style="background-color: #268b3f; ;" class="btn btn-lg" disabled>Online</button></td>
+                      <td><button type="button" style="background-color: #979797; ;" class="btn btn-lg">ELIMINAR</button></td>
+                  </tr>
+                  <tr>
+
+                      <td><button type="button" style="background-color: #979797; ;" class="btn btn-lg" data-bs-toggle="modal" data-bs-target="#editarusuario">EDITAR</button></td>
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="editarusuario" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">OPCION DE EDITAR</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                                            
+                              <br>
+
+                              <!-- POSICION -->
+                              <div class="row g-3 align-items-center">
+                                <div class="col-auto">
+                                  <label for="inputposicion" class="col-form-label">POSICION</label>
+                                </div>
+                                <div class="col-auto">
+                                  <input type="number" id="inputposicion" class="form-control" aria-describedby="passwordHelpInline">
+                                </div>
+                              </div>
+
+                              <br>
+
+                              <!-- NOMBRE -->
+                              <div class="row g-3 align-items-center">
+                                <div class="col-auto">
+                                  <label for="inputnombre" class="col-form-label">NOMBRE</label>
+                                </div>
+                                <div class="col-auto">
+                                  <input type="text" id="inputnombre" class="form-control" aria-describedby="passwordHelpInline">
+                                </div>
+                              </div>
+                              
+                              <br>
+
+                              <!-- APELLIDO -->
+                              <div class="row g-3 align-items-center">
+                                <div class="col-auto">
+                                  <label for="inputapellido" class="col-form-label">APELLIDO</label>
+                                </div>
+                                <div class="col-auto">
+                                  <input type="text" id="inputapellido" class="form-control" aria-describedby="passwordHelpInline">
+                                </div>
+                              </div>
+
+                              <br>
+
+                              <!-- MIEMBRO -->
+                              <div class="row g-3 align-items-center">
+                                <div class="col-auto">
+                                  <label for="inputmiembro" class="col-form-label">MIEMBRO</label>
+                                </div>
+                                <div class="col-auto">
+                                  <input type="text" id="inputmiembro" class="form-control" aria-describedby="passwordHelpInline">
+                                </div>
+                              </div>
+
+                              <br>
+
+                              <!-- ACTIVIDAD -->
+                              <div class="row g-3 align-items-center">
+                                <div class="col-auto">
+                                  <label for="inputactividad" class="col-form-label">ACTIVIDAD</label>
+                                </div>
+                                <div class="col-auto">
+                                  <input type="text" id="inputactividad" class="form-control" aria-describedby="passwordHelpInline">
+                                </div>
+                              </div>
+
+                              <br>
+
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+                              <button type="button" class="btn btn-primary">GUARDAR</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <th scope="row"><button type="button" style="background-color: #ffb223; ;" class="btn btn-lg" disabled>4</button></th>
+                      <td><button type="button" style="background-color: #f02727; ;" class="btn btn-lg" disabled>Felipe</button></td>
+                      <td><button type="button" style="background-color: #ffe923; ;" class="btn btn-lg" disabled>Zapata</button></td>
+                      <td><button type="button" style="background-color: #3e5afc; ;" class="btn btn-lg" disabled>3,5 años</button></td>
+                      <td><button type="button" style="background-color: #268b3f; ;" class="btn btn-lg" disabled>Online</button></td>
+                      <td><button type="button" style="background-color: #979797; ;" class="btn btn-lg">ELIMINAR</button></td>
+                  </tr>
+                  <tr>
+                      <td><button type="button" style="background-color: #979797; ;" class="btn btn-lg" data-bs-toggle="modal" data-bs-target="#editarusuario">EDITAR</button></td>
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="editarusuario" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">OPCION DE EDITAR</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                                            
+                              <br>
+
+                              <!-- POSICION -->
+                              <div class="row g-3 align-items-center">
+                                <div class="col-auto">
+                                  <label for="inputposicion" class="col-form-label">POSICION</label>
+                                </div>
+                                <div class="col-auto">
+                                  <input type="number" id="inputposicion" class="form-control" aria-describedby="passwordHelpInline">
+                                </div>
+                              </div>
+
+                              <br>
+
+                              <!-- NOMBRE -->
+                              <div class="row g-3 align-items-center">
+                                <div class="col-auto">
+                                  <label for="inputnombre" class="col-form-label">NOMBRE</label>
+                                </div>
+                                <div class="col-auto">
+                                  <input type="text" id="inputnombre" class="form-control" aria-describedby="passwordHelpInline">
+                                </div>
+                              </div>
+                              
+                              <br>
+
+                              <!-- APELLIDO -->
+                              <div class="row g-3 align-items-center">
+                                <div class="col-auto">
+                                  <label for="inputapellido" class="col-form-label">APELLIDO</label>
+                                </div>
+                                <div class="col-auto">
+                                  <input type="text" id="inputapellido" class="form-control" aria-describedby="passwordHelpInline">
+                                </div>
+                              </div>
+
+                              <br>
+
+                              <!-- MIEMBRO -->
+                              <div class="row g-3 align-items-center">
+                                <div class="col-auto">
+                                  <label for="inputmiembro" class="col-form-label">MIEMBRO</label>
+                                </div>
+                                <div class="col-auto">
+                                  <input type="text" id="inputmiembro" class="form-control" aria-describedby="passwordHelpInline">
+                                </div>
+                              </div>
+
+                              <br>
+
+                              <!-- ACTIVIDAD -->
+                              <div class="row g-3 align-items-center">
+                                <div class="col-auto">
+                                  <label for="inputactividad" class="col-form-label">ACTIVIDAD</label>
+                                </div>
+                                <div class="col-auto">
+                                  <input type="text" id="inputactividad" class="form-control" aria-describedby="passwordHelpInline">
+                                </div>
+                              </div>
+
+                              <br>
+
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+                              <button type="button" class="btn btn-primary">GUARDAR</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <th scope="row"><button type="button" style="background-color: #ffb223; ;" class="btn btn-lg" disabled>5</button></th>
+                      <td><button type="button" style="background-color: #f02727; ;" class="btn btn-lg" disabled>Albeiro</button></td>
+                      <td><button type="button" style="background-color: #ffe923; ;" class="btn btn-lg" disabled>Profesor</button></td>
+                      <td><button type="button" style="background-color: #3e5afc; ;" class="btn btn-lg" disabled>3 años</button></td>
+                      <td><button type="button" style="background-color: #268b3f; ;" class="btn btn-lg" disabled>Offline</button></td>
+                      <td><button type="button" style="background-color: #979797; ;" class="btn btn-lg">ELIMINAR</button></td>
+                  </tr>
+              </tbody>
+
+            </table>
+
+              <!-- ingreso de datos -->
+            <section  class="ingreso_usuario">
+
+              <section class="boton_ingreso">
+
+                <button type="button" class="btn btn-lg" style="border: 3px solid black; border-radius: 5px;" data-bs-toggle="modal" data-bs-target="#ingresousuario">
+                    NUEVO USUARIO
+                </button>
+
+              </section>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="ingresousuario" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">OPCION DE INGRESO</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      
+                              
+                      <br>
+
+                      <!-- POSICION -->
+                      <div class="row g-3 align-items-center">
+                        <div class="col-auto">
+                          <label for="inputposicion" class="col-form-label">POSICION</label>
+                        </div>
+                        <div class="col-auto">
+                          <input type="number" id="inputposicion" class="form-control" aria-describedby="passwordHelpInline">
+                        </div>
+                      </div>
+
+                      <br>
+
+                      <!-- NOMBRE -->
+                      <div class="row g-3 align-items-center">
+                        <div class="col-auto">
+                          <label for="inputnombre" class="col-form-label">NOMBRE</label>
+                        </div>
+                        <div class="col-auto">
+                          <input type="text" id="inputnombre" class="form-control" aria-describedby="passwordHelpInline">
+                        </div>
+                      </div>
+                      
+                      <br>
+
+                      <!-- APELLIDO -->
+                      <div class="row g-3 align-items-center">
+                        <div class="col-auto">
+                          <label for="inputapellido" class="col-form-label">APELLIDO</label>
+                        </div>
+                        <div class="col-auto">
+                          <input type="text" id="inputapellido" class="form-control" aria-describedby="passwordHelpInline">
+                        </div>
+                      </div>
+
+                      <br>
+
+                      <!-- MIEMBRO -->
+                      <div class="row g-3 align-items-center">
+                        <div class="col-auto">
+                          <label for="inputmiembro" class="col-form-label">MIEMBRO</label>
+                        </div>
+                        <div class="col-auto">
+                          <input type="text" id="inputmiembro" class="form-control" aria-describedby="passwordHelpInline">
+                        </div>
+                      </div>
+
+                      <br>
+
+                      <!-- ACTIVIDAD -->
+                      <div class="row g-3 align-items-center">
+                        <div class="col-auto">
+                          <label for="inputactividad" class="col-form-label">ACTIVIDAD</label>
+                        </div>
+                        <div class="col-auto">
+                          <input type="text" id="inputactividad" class="form-control" aria-describedby="passwordHelpInline">
+                        </div>
+                      </div>
+
+                      <br>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+                      <button type="button" class="btn btn-primary">GUARDAR</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </section>
+
+        </main>
+
+        <footer>
+        
+            <div class="container">
+
+                <footer class=" d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                  <p class="col-md-4 mb-0 text-muted">© 2022 Amazing.cube, Inc</p>
+              
+                  <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                    <svg class="" width="40" height="32"><img class="img-logo-footer" src="img/Logo-definitivo (1).ico" alt=""></svg>
+                  </a>
+              
+                  <ul class="nav col-md-4 justify-content-end">
+                    <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+                    <li class="nav-item"><a href="index-tienda.html" class="nav-link px-2 text-muted">Tienda</a></li>
+                    <li class="nav-item"><a href="index-galeria.html" class="nav-link px-2 text-muted">Galeria</a></li>
+                  </ul>
+                </footer>
+            </div>
+        
+        </footer> 
+
+        <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        
+        <script src="form-validation.js"></script>
+
+</body>

@@ -1,0 +1,123 @@
+
+.nav-link{
+    margin: 0px 5px;
+    width: 110px;
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
+
+.navbar{
+    border-bottom: solid 2px rgb(0, 0, 0);
+    padding: 5px 100px;
+}
+
+.navbar-nav{
+    margin-left: 235px;
+}
+
+/* main */
+
+.center{
+    border-radius: 10px;
+    width: 800px;
+    height: 1645px;
+    padding: 20px;
+    text-align: justify;
+    margin-top: 100px;
+    margin-left: 450px;
+    margin-bottom: 90px;
+}
+
+.center-0{
+    width: 750px;
+    height: 400px;
+}
+
+.center-1{
+    width: 750px;
+}
+
+.carousel{
+    margin-top: 0px;
+    margin-left: 80px;
+    height: 300px;
+    width: 600px;
+    outline-color: green;
+}
+
+.video-1{
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+.left{
+    border-radius: 10px;
+    width: 350px;
+    height: 1645px;
+    padding: 30px;
+    text-align: justify;
+    margin-top: -1735px;
+    margin-left: 100px;
+    margin-bottom: 90px;
+}
+
+.left-1{
+    width: 300px;
+    padding: 5px;
+    height: 1580px;
+    font-size: 13px;
+}
+
+.right{
+    border-radius: 10px;
+    width: 350px;
+    height: 1635px;
+    padding: 30px;
+    padding-top: 45px;
+    text-align: justify;
+    margin-top: -1735px;
+    margin-left: 1250px;
+    margin-bottom: 90px;
+}
+
+.d-flex{
+    margin-top: 11px;
+}
+
+
+.li-1{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.tabla_usuario{
+    margin-top: 150px;
+    margin-left: 225px;
+    margin-bottom: 150px;
+    width: 1300px;
+}
+
+td{
+    text-align: center;
+    width: 10px;
+    height: 70px;
+}
+
+th{
+    text-align: center;
+    width: 10px;
+    height: 70px;
+}
+
+/* footer */
+
+.img-logo-footer{
+    width: 45px;
+    margin-right: 60px;
+}
+
+.container{
+    margin-top: 50px;
+}

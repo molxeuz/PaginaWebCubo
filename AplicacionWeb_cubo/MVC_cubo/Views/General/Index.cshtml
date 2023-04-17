@@ -1,0 +1,391 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<link rel="stylesheet" href="css/style.css">
+
+<!-- empieza el body de la pestaña GENERAL -->
+<body>
+
+<!-- empieza el codigo del main en html -->
+    <main>
+
+        <!-- articulo que encierra las tres secciones a lo largo del main -->
+        <article > 
+
+            <!-- empieza con la seccion del centro -->
+            <section class="center">
+
+                <!-- empieza la primera seccion -->
+                <section class="center-1">
+
+                    <br>
+                    <div class="card shadow-lg ">
+
+                        <!-- titulo de la card -->
+                        <div class="card-header" style="background-color: #ffe923;">
+                        Descripcion general de la pagina
+                        </div>
+
+                        <!-- contenido del card -->
+                        <div class="card-body ">
+                            <h5 class="card-title">Bienvenidos a Amazing.cube:</h5>
+                            <p class="card-text">Aqui podran encontrar diferentes datos y referencias sobre diferentes rubiks, desde los mas comunes hasta algunos que tan vez nunca
+                            te los imaginabas. Tienes acceso para ver proyectos del creador totalmente aparte del tema de esta pagina, y tambien podras armar algunos cubos de manera 
+                            online por si depronto no lo tienes y quieres practica o tan solo probar.</p>
+                          <a href="#" class="btn btn-warning" style="background-color: #ffe923;">Empieza a explorar!</a>
+                        </div>
+
+                    </div>
+
+                    <br></br>
+                    <hr>
+
+                    <!-- menus desplegables -->
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+
+                        <!-- primer menu  -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    Que es el cubo de rubik?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <h3>Significado:</h3>
+                                    <p>El cubo de rubik es un rompecabezas mecánico tradicional, cada una de sus seis caras está cubierta por seis colores, cada una de sus piezas centrales muestran una cara de un solo color, doce piezas aristas y ocho piezas verticales que es el punto donde se encuentra tres caras coloreadas.</p>
+                                    <p>Se hace con las dos manos y poniendo especial atención para poder completar cada una de sus caras con un color homogéneo. Esto que parece una máxima irrefutable no lo es tal. ¿Por qué? Pues porque hay muy diversos tipos de modalidades cuando se habla de torneos y récords.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- segundo menu  -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Torneo y competencias
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <h3>El mas veloz: </h3>
+                                    <p>Haciendo uso de las dos manos, a la mayor velocidad posible. Se juega con 5 cubos diferentes mezclados.
+                                    Por supuesto, es la misma mezcla para ambos competidores y se les otorga un breve espacio de tiempo para la inspección previa.</p>
+                                    <br>
+                                    <h3>La mano más rápida: </h3>
+                                    <p>esta modalidad es igual a la anterior, con la única diferencia de que los participantes tendrán que resolver el Cubo de Rubik con solo una mano.
+                                    Se juega con 3 cubos diferentes mezclados, con la misma mezcla para ambos competidores, pero en este caso no hay tiempo para la inspección.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- tercer menu  -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Datos interesantes
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p>Ernő Rubik, tardó más de un mes en resolver el cubo que él mismo inventó. </p>
+                                    <p>El cubo Rubik tiene exactamente 43.252.003.274.489.856.000 combinaciones posibles Publicidad. </p>
+                                    <p>El cubo de Rubik tiene el record mundial en ventas al haber vendido hasta la fecha más de 300 millones de cubos. </p>
+                                    <p>El cubo de Rubik más grande del mundo está en Knoxville (EE.UU.), tiene 3 metros de alto y pesa 500 kilos. </p>
+                                    <p>El primer torneo mundial se llevó a cabo en Múnich (Alemania) y fue realizado por la organizacion de Record Guiness en 1981. </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <hr>
+                    <br>
+                    <br>
+
+                    <!-- ranking de los mejores  -->
+                    <div class="card shadow-lg ">
+                        <div class="card-header">
+                          <h5>Ranking de los mejores:</h5>
+                        </div>
+                        <div class="card-body">
+                          <blockquote class="blockquote mb-0">
+                            
+                            <table class="table table-sm">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Ranking</th>
+                                        <th scope="col">Tiempos</th>
+                                        <th scope="col">Pais</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Ruihang Xu</td>
+                                        <td>5.48s</td>
+                                        <td>China</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Feliks Zemdegs</td>
+                                        <td>5.53s</td>
+                                        <td>Australia</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Tymon Kolasiński</td>
+                                        <td>5.54s</td>
+                                        <td>Poland</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>Yezhen Han</td>
+                                        <td>5.57s</td>
+                                        <td>China</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>Max Park</td>
+                                        <td>5.59s</td>
+                                        <td>United States</td>
+                                        
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </blockquote>
+                        </div>
+                      </div>
+
+                      <br><br>
+                      <hr>
+                      <br>
+
+                      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="10000">
+                            <iframe class="video-1 shadow-lg" width="380" height="250" src="https://www.youtube.com/embed/cHEYrxZ2dZw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </div>
+                          <div class="carousel-item" data-bs-interval="2000">
+                            <iframe class="video-1 shadow-lg" width="380" height="250" src="https://www.youtube.com/embed/-i8HlzaaRv8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </div>
+                          <div class="carousel-item">
+                            <iframe class="video-1 shadow-lg" width="380" height="250" src="https://www.youtube.com/embed/9nU4tvsPZEI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Siguiente</span>
+                        </button>
+                      </div>
+
+                    <!-- finaliza la tabla de la primera seccion -->
+
+                </section>
+                <!-- finaliza con la primera seccion -->
+
+            </section>
+            <!-- finaliza con la seccion del centro -->
+
+            <!-- comienza con la seccion del la izquierda -->
+            <section class="left">
+                <!-- comuienza con la primera seccion -->
+                <section class="left-1">
+
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-secondary" type="submit">Search</button>
+                    </form>
+
+                    <br><hr>
+
+                    <div data-bs-spy="scroll btn-outline-dark" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+                        <h4 id="list-item-1">Informacion general:</h4>
+                        <br>
+                        <div id="list-example" class="list-group shadow-lg ">
+                            <a class="list-group-item list-group-item btn-outline-warning" href="#">Descripcion de la pagina</a>
+                            <a class="list-group-item list-group-item btn-outline-warning"  href="#">Que es el cubo rubik?</a>
+                            <a class="list-group-item list-group-item btn-outline-warning"  href="#">Torneo y competencias</a>
+                            <a class="list-group-item list-group-item btn-outline-warning"  href="#">Datos interesantes</a>
+                            <a class="list-group-item list-group-item btn-outline-warning"  href="#">Ranking de los mejores</a>
+                            <a class="list-group-item list-group-item btn-outline-warning"  href="#">Records en video</a>
+                        </div>
+
+                        <br><br><br><hr>
+
+                        <h4 id="list-item-2">Tienda en linea:</h4>
+                        <br>
+                        <div id="list-example" class="list-group shadow-lg">
+                            <a class="list-group-item list-group-item btn-outline-danger"  href="#">Marca</a>
+                            <a class="list-group-item list-group-item btn-outline-danger"  href="#">Color</a>
+                            <a class="list-group-item list-group-item btn-outline-danger" href="#">Dificultad</a>
+                            <a class="list-group-item list-group-item btn-outline-danger" href="#">Precios</a>
+                        </div>
+
+                        <br><br><br><hr>
+
+                        <h4 id="list-item-3">Galeria:</h4>
+                        <br>
+                        <div id="list-example" class="list-group shadow-lg">
+                            <a class="list-group-item list-group-item btn-outline-primary"  href="#">Salas de exhibicion</a>
+                            <a class="list-group-item list-group-item btn-outline-primary"  href="#">Informacion individual</a>
+                            <a class="list-group-item list-group-item btn-outline-primary" href="#">Guardados</a>
+                            <a class="list-group-item list-group-item btn-outline-primary"  href="#">Mis publicaciones</a>
+                        </div>
+
+                        <br><br><br><hr>
+                            
+                        <h4 id="list-item-3">Nosotros:</h4>
+                        <br>
+                        <div id="list-example" class="list-group shadow-lg">
+                            <a class="list-group-item list-group-item btn-outline-success" href="#">Redes</a>
+                            <a class="list-group-item list-group-item btn-outline-success" href="#">Colaboraciones</a>
+                            <a class="list-group-item list-group-item btn-outline-success" href="#">Mas informacion</a>
+                            <a class="list-group-item list-group-item btn-outline-success" href="#">Elaboracion</a>
+                        </div>
+
+                        <br><br><br><hr>
+
+                        <h4 id="list-item-3">Empresa:</h4>
+                        <br>
+                        <div id="list-example" class="list-group shadow-lg">
+                            <a class="list-group-item list-group-item btn-outline-secondary"  href="#">Logo</a>
+                            <a class="list-group-item list-group-item btn-outline-secondary" href="#">Agradecimientos</a>
+                            <a class="list-group-item list-group-item btn-outline-secondary" href="#">Nombre</a>
+                            <a class="list-group-item list-group-item btn-outline-secondary" href="#">Otros proyectos</a>
+                        </div>
+
+                    </div>
+                </section>   
+                <!-- finaliza con la primera seccion -->
+
+            </section>
+            <!-- finaliza con la seccion de la izquierda -->
+
+
+            <!-- comienza con la seccion de la derecha -->
+            <section class="right">
+
+                <section class="right-1">
+
+                    <div class="card text-dark shadow-lg bg-light mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Cuenta</div>
+                            <div class="card-body">
+                                <h5 class="card-title">Inicio de seccion:</h5>
+                                <br>
+                                <p class="card-text"><button type="button" class="btn btn-outline-secondary">Ingresar con Google</button></p>
+                                <p class="card-text"><button type="button" class="btn btn-outline-secondary">Ingresar con Facebook</button></p>
+                                <hr>
+                                <p class="card-text"><button type="button" class="btn btn-outline-success">Pedir ayuda al desarrollador</button></p>
+                                <p class="card-text"><button type="button" class="btn btn-outline-warning dropdown-toggle">Tus datos en Amazing </button></p>
+                                <p class="card-text"><button type="button" class="btn btn-outline-primary">Administrar tu cuenta</button></p>
+                                <p class="card-text"><button type="button" class="btn btn-outline-danger">Configuracion</button></p>
+                        </div>
+                    </div>
+                    
+                    <br><br><br>
+
+
+                    <div class="card text-dark shadow-lg bg-light mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Carrito de compra</div>
+                        <div class="card-body">
+                            <div class="card" style="width: 250px; height: 300px;">
+                                <div class="card-body">
+                                    <h6 class="card-subtitle mb-2 text-muted">Mostrando ultima compra:</h6>
+                                    <img src="img/butterfly4 - sala2.jpg" style=" margin-left: 55px; width: 100px; height: 100px;" alt="">
+                                    <p class="card-text">ShengShou Petaminx 9 Layer Minx Puzzle</p>
+                                    <button type="button" id="boton_like_carrito" class="btn btn-outline-secondary" aria-expanded="false">LIKE</button>
+                                    <button type="button" id="boton_share_carrito" class="btn btn-outline-secondary" aria-expanded="false">SHARE</button>
+                                </div>
+                            </div>
+                            <br>
+                            <p class="card-text"><button type="button" class="btn btn-outline-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Enviar comentarios </button></p> 
+                        </div>
+                    </div>
+
+                    <br><br><br>
+
+                    <div class="my-3 p-3 bg-body rounded shadow-lg mb-20">
+                        <h6 class="border-bottom pb-2 mb-0 ">Comentarios recientes</h6>
+                        <div class="d-flex text-muted pt-3">
+                          <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#007bff"></rect><text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text></svg>
+                    
+                          <p class="pb-3 mb-0 small lh-sm border-bottom">
+                            <strong class="d-block text-gray-dark">Adicto_cubos</strong>
+                            Some representative placeholder content, with some information about this user.
+                          </p>
+                        </div>
+                        <div class="d-flex text-muted pt-3">
+                          <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#e83e8c"></rect><text x="50%" y="50%" fill="#e83e8c" dy=".3em">32x32</text></svg>
+                    
+                          <p class="pb-3 mb-0 small lh-sm border-bottom">
+                            <strong class="d-block text-gray-dark">Ch3lios</strong>
+                            Some more representative placeholder content, related to this other user. Another status update, perhaps.
+                          </p>
+                        </div>
+                        <div class="d-flex text-muted pt-3">
+                          <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#6f42c1"></rect><text x="50%" y="50%" fill="#6f42c1" dy=".3em">32x32</text></svg>
+                    
+                          <p class="pb-3 mb-0 small lh-sm border-bottom">
+                            <strong class="d-block text-gray-dark">Nada_mas</strong>
+                            This user also gets some representative placeholder content.
+                          </p>
+                        </div>
+                        <small class="d-block text-end mt-3">
+                          <a href="index-galeria.html">Todo Actualizado</a>
+                        </small>
+                      </div>
+
+
+                </section>
+
+            </section>
+                
+        </section>
+        <!-- finaliza con la seccion de la derecha -->
+            
+    </article>
+    <!-- finaliza el articulo que encierra las tres secciones del main  -->
+
+</main>
+<!-- finaliza el codigo del main en html -->
+
+<br><br><br><br><br><br>
+
+<!-- comienza el codigo del footer en html -->
+<footer>
+        
+    <div class="container">
+        <footer class=" d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-muted">© 2022 Amazing.cube, Inc</p>
+      
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <svg class="" width="40" height="32"><img class="img-logo-footer" src="img/Logo-definitivo (1).ico" alt=""></svg>
+          </a>
+      
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+            <li class="nav-item"><a href="index-tienda.html" class="nav-link px-2 text-muted">Tienda</a></li>
+            <li class="nav-item"><a href="index-galeria.html" class="nav-link px-2 text-muted">Galeria</a></li>
+          </ul>
+        </footer>
+      </div>
+
+      
+
+</footer>
+<!-- finaliza el codigo del footer en html -->
+
+</body>

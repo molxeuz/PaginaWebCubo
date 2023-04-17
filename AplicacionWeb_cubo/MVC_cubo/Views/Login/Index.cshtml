@@ -1,0 +1,120 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!-- empieza el body de la pestaña LOGIN -->
+    <body class="bg-light mt-5">
+    
+        <div class="container">
+          <main>
+            <div class="py-4 text-center">
+              <img class="d-block mx-auto mb-4" src="Img/Logo-definitivo (1).ico" alt="" width="65" height="57">
+              <h2>INICIO DE SESION</h2>
+            </div>
+        
+            <div class="row g-5">
+              <div class="col-md-5 col-lg-4 order-md-last">
+                <h4 class="d-flex justify-content-between align-items-center mb-3">
+                  <span class="text-primary">Apoyanos y compra <br> nuestros productos.</span>
+                  <span class="badge bg-primary rounded-pill">3</span>
+                </h4>
+                <ul class="list-group mb-3">
+                  <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div>
+                      <h6 class="my-0">15 GB de espacio</h6>
+                      <small class="text-muted">Aqui tendras la posibilidad de tener una galeria y compras mayores.</small>
+                    </div>
+                    <span class="text-muted">$99.000/sem</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div>
+                      <h6 class="my-0">Soporte de celular y correo</h6>
+                      <small class="text-muted">Aqui tendras la posibilidad de tener una galeria y compras mayores.</small>
+                    </div>
+                    <span class="text-muted">$79.000/sem</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div>
+                      <h6 class="my-0">Facil acceso y compartir</h6>
+                      <small class="text-muted">Aqui tendras la posibilidad de tener una galeria y compras mayores.</small>
+                    </div>
+                    <span class="text-muted">$20.000/sem</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between bg-light">
+                    <div class="text-success">
+                      <h6 class="my-0">Codigo de promocion</h6>
+                      <small>holaestoesuncodigoprom</small>
+                    </div>
+                    <span class="text-success">−$50.000</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between">
+                    <span>Total (COP)</span>
+                    <strong>$148.000</strong>
+                  </li>
+                </ul>
+        
+                <form class="card p-2">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Promo code">
+                    <button type="submit" class="btn btn-secondary">promocion</button>
+                  </div>
+                </form>
+              </div>
+              <div class="col-md-7 col-lg-8">
+                <h4 class="mb-3">Ingreso de informacion</h4>
+                <form class="needs-validation" novalidate="">
+                  <div class="row g-3">
+        
+                    <div class="col-12">
+                      <label for="username" class="form-label">Correo / Usuario</label>
+                        <div class="input-group has-validation">
+                          <span class="input-group-text">--</span>
+                          <input type="text" class="form-control" id="username" placeholder="Usuario / correo" required="">
+                        <div class="invalid-feedback">
+                          Tu usuario / correo es obligatorio.
+                        </div>
+                      </div>
+                    </div>
+        
+                    <div class="col-12">
+                      <label for="username" class="form-label">Constraseña</label>
+                        <div class="input-group has-validation">
+                          <span class="input-group-text">**</span>
+                          <input type="text" class="form-control" id="username" placeholder="contraseña" required="">
+                        <div class="invalid-feedback">
+                          Ingresa tu contraseña.
+                        </div>
+                      </div>
+                    </div>
+        
+                  <hr>
+        
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="same-address">
+                    <label class="form-check-label" for="same-address">Aceptas terminos y condiciones</label>
+                  </div>
+        
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="save-info">
+                    <label class="form-check-label" for="save-info">Enviar informacion adicional al correo electronico</label>
+                  </div>   
+        
+                  <hr>
+
+                  <a class="btn btn-outline-primary" id="usuario" href="@Url.Action("Index", "Admin")">Ingresar</a>
+
+                </form>
+              </div>
+            </div>
+          </main>
+        
+        </div>
+        
+        
+            <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        
+              <script src="form-validation.js"></script>
+          
+        
+    </body>
